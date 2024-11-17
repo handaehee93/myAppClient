@@ -1,6 +1,11 @@
+<script setup lang="ts">
+import Login from './pages/login.vue';
+</script>
+
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <Login></Login>
+    <!-- <NuxtRouteAnnouncer />
+    <NuxtWelcome /> -->
   </div>
 </template>
